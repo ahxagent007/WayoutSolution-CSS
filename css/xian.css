@@ -1,0 +1,148 @@
+.navbar{
+          margin-bottom: 0;
+          border-radius: 0;
+          background-color: #565656;
+          color: #FFF;
+          padding: 1% 0;
+          font-size: : 1.2em;
+          border: 0; 
+      }
+#myNavbar a:hover{
+    color: #EEEEEE;
+}
+
+.navbar-brand{
+          float: left;
+          min-height: 55px;
+          padding: 0 15px 5px;
+      }
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
+      .navbar-inverse .navbar-nav .active a:hover{
+          color: #e2e2e2e2;
+          background: #565656;
+          
+      }
+
+.navbar-inverse .navbar-nav li a{
+    color: #FFF;
+    font-size: 1.2em;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.container{
+    margin: 4% auto;
+}
+
+#icon{
+    max-width: 200px;
+    margin: 1% auto;
+    
+}
+
+
+footer{
+    width: 100%;
+    background: #565656;
+    padding: 5%;
+    color: #FFF;
+    max-height: auto;
+}
+
+#copyrightLaw{
+    font-family: 'Questrial',sans-serif;
+    font-size: 0.9em;
+    padding: 15px;
+}
+#copyrightLaw h4, #copyrightLaw h5{
+    font-size: 1em;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    color: #FFF;    
+}
+.fa:hover{
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+#extra-nav{
+    background-color: #E2E2E2;
+    margin: auto;
+    padding: 10px;
+    color: #E2E2E2;
+}
+
+#extra-nav a{
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+#extra-nav a:hover{
+    color: #686868;
+}
+
+.underConstruction img{
+    margin: auto;
+    width: 100%; 
+    float: none;
+}
+
+.footer-nav ul li{
+    margin: none;
+    list-style-type: none;
+}
+.footer-nav ul li a{
+    font-size: 17px;
+    margin: 0px;
+    padding: 10px
+}
+
+#top-cat{
+    margin: auto;
+    text-align: center
+}
+
+.xbox{
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    min-height: 200px;
+}
+
+.xborder{
+    border: 1px solid #000000;
+    padding: 10px;
+}
+.myFooter{
+    padding: 20px;
+}
+.footer-nav ul{
+   padding: 0px;
+}
+
+@media(max-width: 900px){
+    .fa{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media(max-width: 600px){
+    .carousel-caption{
+        display: none;
+    }
+    #icon{
+        max-width: 150px;
+    }
+    h2{
+        font-size: 1.7em;
+    }
+    .xbox{
+        min-height: 100px;
+    }
+}
